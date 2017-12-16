@@ -5,8 +5,11 @@ angular.module('video-player')
     controller: function() {
       this.videos = exampleVideoData;
       this.currentVideo = exampleVideoData[0];
-      // console.log("In app", this);
-      // console.log("videos ",this);
+      
+      //click handler for video list item
+      this.handleVideoItemClick = (value) => {
+        this.currentVideo = value;
+      };
     },
     templateUrl: 'src/templates/app.html', 
 

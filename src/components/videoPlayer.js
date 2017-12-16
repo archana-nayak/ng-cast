@@ -11,9 +11,6 @@ angular.module('video-player')
       // console.log('in video Player ', this);
       this.url = function() {
         return `https://www.youtube.com/embed/${this.video.id.videoId}`;
-        // var x = "https://www.youtube.com/embed/";
-        // console.log('this is x', x);
-        // return x;
       };
       
       // this.videoUrl = 
