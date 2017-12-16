@@ -2,11 +2,13 @@ angular.module('video-player')
   .component('videoListEntry', {
   // TODO
     bindings: {
+      index: '<',
       video: '<',
-      clickHandler: '<'
+      handleClick: '<'
     },
     controller: function() {
       // console.log('in videoListEntry ', this);
+      // debugger;
     },
     
     templateUrl: 'src/templates/videoListEntry.html', 

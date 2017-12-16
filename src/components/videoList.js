@@ -3,7 +3,7 @@ angular.module('video-player')
     // TODO
     bindings: {
       videos: '<',
-      onClick: '<'
+      handleClick: '<'
     },
     controller: function() {
       // this.videos = $scope.videos;

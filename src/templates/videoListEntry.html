@@ -1,5 +1,5 @@
-<li class="video-list-entry media">
-  <div class="media-left" ng-click="{{$ctrl.clickHandler($event)}}">
+<li class="video-list-entry media" ng-click="$ctrl.handleClick($ctrl.index)">
+  <div class="media-left" >
         <!-- <img class="media-object" src="https://i.ytimg.com/vi/1w8Z0UOXVaY/default.jpg" /> -->
         <img class="media-object" src={{$ctrl.video.snippet.thumbnails.default.url}} />
       </div>
