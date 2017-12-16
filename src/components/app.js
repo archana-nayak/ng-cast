@@ -3,7 +3,9 @@ angular.module('video-player')
   .component('app', {
     // TODO
     controller: function() {
-      console.log("In app");
+      this.videos = exampleVideoData;
+      console.log("In app", this);
+      // console.log("videos ",exampleVideoData);
     },
     templateUrl: 'src/templates/app.html', 
 
