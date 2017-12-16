@@ -4,9 +4,13 @@ angular.module('video-player')
     bindings: {
       video: '<'
     },
+    controller: function() {
+      // console.log('in videoListEntry ', this);
+    },
     
     templateUrl: 'src/templates/videoListEntry.html', 
   
    
+  
   });
  

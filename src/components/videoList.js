@@ -6,7 +6,8 @@ angular.module('video-player')
     },
     controller: function() {
       // this.videos = $scope.videos;
-      console.log('In videoList ', this);
+      
+      // console.log('In videoList ', this);
       
       
     },
