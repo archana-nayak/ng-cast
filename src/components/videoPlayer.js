@@ -9,9 +9,9 @@ angular.module('video-player')
     controller: function() {
       
       // console.log('in video Player ', this);
-      this.url = function() {
-        return `https://www.youtube.com/embed/${this.video.id.videoId}`;
-      };
+      // this.url = function() {
+      //   return `https://www.youtube.com/embed/${this.video.id.videoId}`;
+      // };
       
       // this.videoUrl = 
       // videoUrl = "https://www.youtube.com/embed/" ;

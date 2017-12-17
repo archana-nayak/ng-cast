@@ -11,9 +11,15 @@ angular.module('video-player')
       // debugger;
     },
     
+    
     templateUrl: 'src/templates/videoListEntry.html', 
   
    
   
+  })
+
+  .filter('escape', () => {
+    return window.encodeURIComponent;
   });
+
  
